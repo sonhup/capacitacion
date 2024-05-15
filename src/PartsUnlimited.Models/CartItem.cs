@@ -6,12 +6,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
-    //prueba de cambios
+    //prueba de cambios master
     public class CartItem
     {
         [Key]
         public int CartItemId { get; set; }
-
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
